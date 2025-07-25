@@ -1,0 +1,24 @@
+{
+  "description": "A full-featured Web Reconnaissance framework written in Python. Complete with independent modules, database interaction, and built-in convenience functions.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "recon-ng.png",
+  "categories": [
+    "OSINT",
+    "Security"
+  ],
+  "friendly_name": "Recon-ng",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "lanmaster53/recon-ng:latest",
+      "uncompressed_size_mb": 510,
+      "available_tags": [
+        "latest",
+        "5.1.2"
+      ]
+    }
+  ]
+}
