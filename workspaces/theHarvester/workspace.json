@@ -1,0 +1,23 @@
+{
+  "description": "A tool for gathering OSINT such as e-mail accounts, subdomain names, and employee names from different public sources. This workspace uses the Kali Linux image where theHarvester is pre-installed.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "theharvester.svg",
+  "categories": [
+    "OSINT",
+    "Penetration Testing"
+  ],
+  "friendly_name": "theHarvester",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "kalilinux/kali-rolling",
+      "uncompressed_size_mb": 3500,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
