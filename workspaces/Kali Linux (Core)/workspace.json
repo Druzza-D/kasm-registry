@@ -1,0 +1,25 @@
+{
+  "description": "A Kasm-optimized version of Kali Linux with a core set of tools. Ideal for lower-resource environments.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "kali-linux.png",
+  "categories": [
+    "Desktop",
+    "Penetration Testing"
+  ],
+  "friendly_name": "Kali Linux (Core)",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "kasmweb/kali-linux-core:1.17.0",
+      "uncompressed_size_mb": 3000,
+      "available_tags": [
+        "1.17.0",
+        "develop"
+      ]
+    }
+  ]
+}
