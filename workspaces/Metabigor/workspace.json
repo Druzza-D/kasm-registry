@@ -13,7 +13,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "j3ssie/metabigor:latest",
+      "image": "mablanco/metabigor:latest",
       "uncompressed_size_mb": 300,
       "available_tags": [
         "latest"
