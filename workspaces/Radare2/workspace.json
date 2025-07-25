@@ -13,7 +13,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "radare/radare2:latest",
+      "image": "remnux/radare2:latest",
       "uncompressed_size_mb": 900,
       "available_tags": [
         "latest",
