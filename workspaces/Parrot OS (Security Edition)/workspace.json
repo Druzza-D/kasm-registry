@@ -1,0 +1,25 @@
+{
+  "description": "Parrot Security OS - a full desktop environment with a comprehensive suite of security tools for penetration testing and digital forensics.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "parrotos.svg",
+  "categories": [
+    "Desktop",
+    "Penetration Testing",
+    "OSINT"
+  ],
+  "friendly_name": "Parrot OS",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "parrotsec/security:latest",
+      "uncompressed_size_mb": 4500,
+      "available_tags": [
+        "latest",
+        "rolling"
+      ]
+    }
+  ]
+}
