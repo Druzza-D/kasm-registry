@@ -1,0 +1,24 @@
+{
+  "description": "A complete framework for reverse-engineering and analyzing binaries; composed of a set of small utilities that can be used together or independently.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "Radare2.svg",
+  "categories": [
+    "Malware Analysis",
+    "Reverse Engineering"
+  ],
+  "friendly_name": "Radare2",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "radare/radare2:latest",
+      "uncompressed_size_mb": 900,
+      "available_tags": [
+        "latest",
+        "5.9.0"
+      ]
+    }
+  ]
+}
